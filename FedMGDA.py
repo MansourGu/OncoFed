@@ -277,7 +277,7 @@ class SecureAggregatorServer(AggregatorBaseServer):
 
         # 3. 使用最有权重计算全局模型更新量，并更新模型\aggregate grads
         dt = fmodule._model_average(grads, op_lambda)
-        self.model = self.models[0] - dt * self.eta
+        self.model = self.model - dt * self.eta
         return self.model - dt * self.eta
 
     def aggregate_model(self, suffix=None, party_idx=-1):
