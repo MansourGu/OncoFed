@@ -8,6 +8,7 @@
 - BraTS2021_00000：患者病历，包含患者信息及MRI的四个模态及肿瘤位置。
 - Data_Process.py：数据预处理
 - Dataset.py：pytorch数据集构建及数据增强方式
+- FedMGDA.py：聚合算法模块
 - Fate_task.ipynb：Fate训练部署流程
 - loadDataFiles.py：UI界面读取文件
 - main.py：可视化界面运行
@@ -15,4 +16,4 @@
 - model.py：模型配置文件
 - train.py：模型训练
 - Utils.py：周期学习率定义及Loss函数
-- UNet.pth：模型权重文件（https://box.nju.edu.cn/f/5ae47f868b984e9f9905）
+- UNet.pth：模型权重文件：https://box.nju.edu.cn/f/5ae47f868b984e9f9905
