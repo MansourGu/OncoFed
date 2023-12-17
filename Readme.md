@@ -15,4 +15,4 @@
 - model.py：模型配置文件
 - train.py：模型训练
 - Utils.py：周期学习率定义及Loss函数
-- UNet.pth：模型权重文件
+- UNet.pth：模型权重文件（https://box.nju.edu.cn/f/5ae47f868b984e9f9905）
